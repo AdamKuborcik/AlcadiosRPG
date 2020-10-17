@@ -1,0 +1,43 @@
+{
+    "ItemGiverChained": [
+    ],
+    "TransportData": [
+    ],
+    "NpcsTimers": [
+    ],
+    "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        },
+        {
+            "Points": 1000,
+            "Faction": 1
+        },
+        {
+            "Points": 0,
+            "Faction": 2
+        },
+        {
+            "Points": 0,
+            "Faction": 3
+        }
+    ],
+    "BankData": [
+    ],
+    "ItemGiversList": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Hakudoushi7",
+    "QuestData": {
+        "CompletedQuests": [
+        ],
+        "ActiveQuests": [
+        ]
+    },
+    "UUID": "31c21635-5907-3647-9be0-30cc480d3277",
+    "PlayerCompanionId": 0,
+    "DialogData": [
+    ]
+}
