@@ -1,6 +1,4 @@
 {
-    "ItemGiverChained": [
-    ],
     "TransportData": [
     ],
     "NpcsTimers": [
@@ -11,17 +9,21 @@
     ],
     "ItemGiversList": [
     ],
-    "MailData": [
-    ],
-    "PlayerName": "Atti101",
     "QuestData": {
         "CompletedQuests": [
         ],
         "ActiveQuests": [
         ]
     },
-    "UUID": "9687f17e-49a2-380d-9a31-56bb6921cb62",
     "PlayerCompanionId": 0,
     "DialogData": [
-    ]
+    ],
+    "ItemGiverChained": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Atti101",
+    "UUID": "9687f17e-49a2-380d-9a31-56bb6921cb62",
+    "ScriptStoreddata": {
+    }
 }

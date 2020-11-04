@@ -1,11 +1,17 @@
 {
-    "ItemGiverChained": [
-    ],
     "TransportData": [
     ],
     "NpcsTimers": [
     ],
     "FactionData": [
+        {
+            "Points": 2000,
+            "Faction": 0
+        },
+        {
+            "Points": 1000,
+            "Faction": 1
+        },
         {
             "Points": 0,
             "Faction": 2
@@ -15,17 +21,21 @@
     ],
     "ItemGiversList": [
     ],
-    "MailData": [
-    ],
-    "PlayerName": "Mard_Geer",
     "QuestData": {
         "CompletedQuests": [
         ],
         "ActiveQuests": [
         ]
     },
-    "UUID": "75bd15ca-4238-4c5b-8b95-8c3af914b0fb",
     "PlayerCompanionId": 0,
     "DialogData": [
-    ]
+    ],
+    "ItemGiverChained": [
+    ],
+    "MailData": [
+    ],
+    "PlayerName": "Mard_Geer",
+    "UUID": "75bd15ca-4238-4c5b-8b95-8c3af914b0fb",
+    "ScriptStoreddata": {
+    }
 }
