@@ -1,0 +1,9 @@
+A rendszer megvalósítja azt, hogy egy adott tárgyon levő lore-ban levő értéket leolvassa, majd az alapján eldönti, hogy az item használható e a játékos számára, amennyiben elérte azt a bizonyos szintet.
+
+Az alábbiakra kell nézni a funckiót:
+- Páncél(Helmet, Chestplate, Leggings, Boots)
+- Offhand
+- Mainhand
+
+Példa:
+Egy helmeten adott egy Lore, aminek az első sorában azt található hogy: "Level: 30" A script oldja meg hogy ha a játékos szintje ha nem éri el a 30 as szintet, akkor a helmetet ne tudja hordani addíg, míg azt nem éri el.
