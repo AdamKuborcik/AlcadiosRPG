@@ -1,0 +1,12 @@
+NÉV
+KÉP
+
+Rövid leírás
+
+Növényzet, Terrain leírás
+
+Helyszínek kifejtése hogy pontosan mi legyen, és micsoda
+pl:
+Hunter's Hut
+Egy vadásznak a lakhelye, és munkahelye
+Tölgyfából készült közepes méretû ház, és még1 kisebb épület mellette, ami egy raktár legyen.

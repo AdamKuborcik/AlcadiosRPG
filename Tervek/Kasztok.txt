@@ -1,0 +1,43 @@
+Hunter:
+	Leírás: A Hunter egy kifejezetten skillre építõ kaszt, kiszámítható, de erõs sebzéssel képes alázni ellenfeleit.
+		Harcban gyakran alkalmazza íjászati tehetségét, és különleges beszelídítõ képességét amivel képes bizonyos lényeket
+		irányítása alá vonni, és harcba küldeni, ezzel erõs támogatót kapva, hozzáadva az távolsági sebzését szinte legyõzhetetlen
+		kaszt. Sajnos védekezésben nagyon alul marad, ha több ellenféllel kell harcolni egyszerre, akkor képes hamar sarokba szorulni,
+		a gyenge páncélzata miatt egy-egy nagyobb mob sereg képes mégis nagy sebzést bevinni neki.
+
+
+	Special: Pet használat(Lesznek megszerezhetõ petek, különféle erõsséggel.)
+	Elõny: Gyors, viszonylag erõs sebzéssel bíró kaszt, mely képes távolról leszedni bármilyen ellenfelet.
+	Hátrány: Gyenge közelharc, viszonylag kevés felszerelés fajtával bíró kaszt.
+
+
+Rogue:
+	Leírás: A Rogue kiszámíthatatlan, gyors és ütõképes kaszt, aminek a különlegessége, hogy képes gyorsan eltûnni a csatából, ha vesztésre áll.
+		A gyors hátrálás azonban csak az egyik erõssége a kasztnak, de a fõ képessége a gyors, és halálos támadásai, amiket különbözõ combokkal
+		tud elérni. Képes bizonyos dobható fegyvereket használni, ezzel távolból tudja sebezni az ellenséget. Igaz ez nem olyan hatékony mint a 
+		közelharci támadásai, viszont így sokoldalú támadásra képes, ami a harcászatban elengedhetetlen.
+		Elsajátítása a kasztnak nehéz, de aki tudja használni, az szinte bármilyen ellenféllel megtud bírkózni. Az erõs képességei, 
+		harci ereje mellett sajnos eltörpül a védekezési képessége, ezért az egyik legsebezhetõbb kasztnak tekintik.
+
+
+	Special: Speciális Skillek(dodge, backstab és egyéb finomságok)
+	Elõny: 
+	Hátrány: 
+
+
+Knight:
+	Leírás: A Knight a védekezés mestere. Különleges páncélok hordására specializálódott kaszt, de különféle közelharci fegyvereket is képes 
+		használni.
+
+
+
+	Special: Speciális Armor(Különleges armor, amelyeknek különféle traitjuk van)
+	Elõny: 
+	Hátrány: 
+
+
+Mage:
+	Leírás:
+	Special: Sokoldalúság(többféle element, spell van, amit kedved szerint tudsz kombinálni.)
+	Elõny: 
+	Hátrány: 

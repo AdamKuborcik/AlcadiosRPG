@@ -1,0 +1,18 @@
+(level*1.227*mob fajta)*Mob status
+
+mob status:
+-Normal: 1
+-Elite: 1.3
+-Mythical: 1.7
+-Normal Boss: 2
+-Elite Boss: 5
+-Raid Boss: 10
+-Superboss: 15
+
+Mob Fajta:
+-Ranged Type: level+level*[0.7-1.1]*5
+-Tanked Type: level+level*[1.2-1.6]*5
+-Fast Type: level+level*[0.5-0.9]*5
+-Balanced Type: level+level*5
+-Passive Mob: level+level*0.2*5
+-Elite-superboss: level+level*5

@@ -1,0 +1,66 @@
+function tick(event){
+    var p = event.player;
+
+    var mainhanditem = p.getMainhandItem();
+    var offhanditem = p.getOffhandItem();
+    var helmetitem = p.getArmor(3);
+    var chestplateitem = p.getArmor(2);
+    var leggingsitem = p.getArmor(1);
+    var bootsitem = p.getArmor(0);
+
+    var mainhandlore = mainhanditem.getLore();
+    var offhandlore = offhanditem.getLore();
+    var helmetlore = helmetitem.getLore();
+    var chestplatelore = chestplateitem.getLore();
+    var leggingslore = leggingsitem .getLore();
+    var bootslore = bootsitem.getLore();
+
+    if(mainhandlore.length > 0){
+        var mainhandlevel = mainhandlore[0].split(' ');
+        if(parseInt(mainhandlevel[1]) > p.getExpLevel()){
+            p.dropItem(mainhanditem.copy());
+            mainhanditem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+    if(offhandlore.length > 0){
+        var offhandlevel = offhandlore[0].split(' ');
+        if(parseInt(offhandlevel[1]) > p.getExpLevel()){
+            p.dropItem(offhanditem.copy());
+            offhanditem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+    if(helmetlore.length > 0){
+        var helmetlevel = helmetlore[0].split(' ');
+        if(parseInt(helmetlevel[1]) > p.getExpLevel()){
+            p.dropItem(helmetitem.copy());
+            helmetitem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+    if(chestplatelore.length > 0){
+        var chestplatelevel = chestplatelore[0].split(' ');
+        if(parseInt(chestplatelevel[1]) > p.getExpLevel()){
+            p.dropItem(chestplateitem.copy());
+            chestplateitem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+    if(leggingslore.length > 0){
+        var leggingslevel = leggingslore[0].split(' ');
+        if(parseInt(leggingslevel[1]) > p.getExpLevel()){
+            p.dropItem(leggingsitem.copy());
+            leggingsitem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+    if(bootslore.length > 0){
+        var bootslevel = bootslore[0].split(' ');
+        if(parseInt(bootslevel[1]) > p.getExpLevel()){
+            p.dropItem(bootsitem.copy());
+            bootsitem.setStackSize(0);
+            p.message("§I§4Nem használhatod ezt a tárgyat, mert túl kicsi a szinted hozzá!");
+        }
+    }
+}
