@@ -1,0 +1,78 @@
+Common:
+Alap páncél, alacsony védelmi értéke van, a táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+
+Alap fegyverek, alacsony sebzéssel, táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+
+Color Code: §7 Gray
+
+Uncommon:
+Alap páncél, közepes védelmi értéke van, a táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+
+Alap fegyverek, alacsony sebzéssel, táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+
+Color Code: §2 Green
+
+Rare:
+Alap páncél, magas védelmi értéke van, a táblázat által meghatározott értékkel, lehet rajta valami bónusz dolog(enchant).
+Mágusnál megjelennek a speciális armorok.
+
+Alap fegyverek, alacsony sebzéssel, táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+
+Color Code: §9 Blue
+
+Legendary:
+Tinkeres páncél, magas védelmi értéke van,  a táblázat által meghatározott értékkel, a bónusz dolgokat a páncél összetétele adja.
+Mágusnál megjelennek a speciális armorok.
+
+Alap fegyverek, alacsony sebzéssel, táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+Archernál tinkeres íjak vannak.
+
+Color Code: §6 Gold
+
+Epic:
+Tinkeres páncél, hatalmas védelmi értéke van, a táblázat által meghatározott értékkel, a bónusz dolgokat a páncél összetétele adja.
+Mágusnál megjelennek a speciális armorok.
+
+Alap fegyverek, alacsony sebzéssel, táblázat által meghatározott értékkel, nincs rajta semmi bónusz dolog.
+Archernál tinkeres íjak vannak.
+
+Color Code: §d Purple
+
+A fegyverek a spartan weaponry arzenálját, illetve tinker construct fegyvereit használják.
+
+
+Warden: Heavy Armor
+Lancer: Medium Armor
+Berserker: Medium Armor
+Lancer: Medium Armor
+Rogue Felszerelés: Light Armor,  Egykezes fegyverek(többfajta),  Dobható Fegyverek
+Hunter: Light Armor,  Íjfajták, Egykezes fegyverek(egyfajta fegyver)
+Druid: Cloth Armor
+Shaman: Heavy Armor
+Warlock: Cloth Armor
+
+
+Áttervezés:
+Mage: Mágusruházat, Wandok, Egykezes fegyverek(egyfajta fegyver)
+
+
+Item felépítése:
+Lore: 
+1.Sor: Szükséges Szint "Level: X"
+2.Sor: Szükséges Kaszt "Szükséges Kaszt: X, X, X..."
+3.Sor: Szükséges a Cost meghatározása lore-ban "Ár: X"
+
+Javítás: Algoritmus segítségével történik a coin leváltása.
+
+Coin értékek:
+Wooden - 1
+Stone - 10
+Bronze - 100
+Iron - 1000
+Gold - 10000
+Diamond - 100000
+Emerald - 1000000
+
+Olyan algoritmus kell ami az item minősége alapján meghatározott javítási ár alapján vonja le a játékos pénzéből azt a mennyiséget, ami a javításhoz kell. Először a kissebb értékű pénzeket veszi le, azután a nagyobbakat váltja le, és a visszajárót az inventoryba rakja.
+
+

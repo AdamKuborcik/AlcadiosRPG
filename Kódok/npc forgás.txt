@@ -1,0 +1,24 @@
+function interact(event){
+var timers = event.npc.getTimers();
+var max = 361;
+for(var i = 0; i < max;i++){
+timers.start(i,i,false);
+timers.start(i+max,i,false);
+timers.start(i+max*2,i,false);
+timers.start(i+max*3,i,false);
+timers.start(i+max*4,i,false);
+timers.start(i+max*5,i,false);
+timers.start(i+max*6,i,false);
+timers.start(i+max*7,i,false);
+timers.start(i+max*8,i,false);
+timers.start(i+max*9,i,false);
+timers.start(i+max*10,i,false);
+}
+
+}
+function timer(event){
+if(event.npc.getRotation() > 360){
+event.npc.setRotation(event.npc.getRotation() -360);
+}else event.npc.setRotation(event.npc.getRotation() + 3);
+
+}

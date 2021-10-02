@@ -1,0 +1,63 @@
+var Kemerald = 0; // 1000000
+var Kdiamond = 0; //100000
+var Kgold = 0; //10000
+var Kiron = 0; //1000
+var Kbronze = 0; //100
+var Kstone = 0; //10
+var Kwooden = 0; //1
+
+var allmoney = 0;
+var costofitem = 0;
+
+var Vemerald = 0; // 1000000
+var Vdiamond = 0; //100000
+var Vgold = 0; //10000
+var Viron = 0; //1000
+var Vbronze = 0; //100
+var Vstone = 0; //10
+var Vwooden = 0; //1
+
+var player;
+
+var Iemerald;
+var Idiamond;
+var Igold;
+var Iiron;
+var Ibronze;
+var Istone;
+var Iwooden;
+
+function initCoins(){
+    Iemerald = player.getWorld().createItem("variedcommodities:coin_emerald",0,1);
+    Idiamond = player.getWorld().createItem("variedcommodities:coin_diamond",0,1);
+    Igold = player.getWorld().createItem("variedcommodities:coin_gold",0,1);
+    Iiron = player.getWorld().createItem("variedcommodities:coin_iron",0,1);
+    Ibronze = player.getWorld().createItem("variedcommodities:coin_bronze",0,1);
+    Istone = player.getWorld().createItem("variedcommodities:coin_stone",0,1);
+    Iwooden = player.getWorld().createItem("variedcommodities:coin_wood",0,1);
+}
+
+function countCoins(){
+    Kemerald = player.getInventory().count(Iemerald,true,true);
+    Kdiamond = player.getInventory().count(Idiamond,true,true);
+    Kgold = player.getInventory().count(Igold,true,true);
+    Kiron = player.getInventory().count(Iiron,true,true);
+    Kbronze = player.getInventory().count(Ibronze,true,true);
+    Kstone = player.getInventory().count(Istone,true,true);
+    Kwooden = player.getInventory().count(Iwooden,true,true);
+    allmoney = Kwooden + Kstone*10 + Kbronze*100 + Kiron*1000 + Kgold*10000 + Kdiamond*100000 + Kemerald*1000000;
+}
+
+function addCoins(){
+    var i = 1000000;
+    while(i != 1){
+        
+    }
+}
+
+function interact(event){
+    player = event.player;
+    initCoins();
+    countCoins();
+    event.npc.say(allmoney);
+}
