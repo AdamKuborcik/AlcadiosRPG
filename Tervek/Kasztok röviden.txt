@@ -1,0 +1,15 @@
+Szerepek: 
+-    Helye a csatában: frontline, backline, invader
+-    Szerepe a csapatban: Damage, tank, support
+-    Támadási módja: Ranged, melee, caster
+
+
+Kasztok:
+Warlock - backline, damage, caster
+Cleric - backline, support, caster
+Hunter - backline, damage, ranged
+Warden - frontline tank, melee
+Shaman - frontline, tank/support, caster/melee
+Berserker - frontline, damage, melee
+Rogue - invader, damage, caster
+Lancer - invader, damage/tank, melee
